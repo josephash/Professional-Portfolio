@@ -50,12 +50,35 @@ section {
     width: 100%;
     margin: 10px 20px 10px 20px;
     padding: 10px;
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
+    border-top: 4px solid darkblue;
+    /* border-bottom: 4px solid darkblue; */
+}
+.project {
+
 }
 #img-self {
     height: 128px;
     width: 128px;
+}
+footer {
+    height: 80px;
+    padding: 5px;
+    background-color: lightblue;
+}
+footer h3 {
+    text-align: center;
+    font-size: 90%;
+    margin: 5px;
+}
+footer ul {
+    display: flex;
+    font-size: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+footer li {
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 992px) {
